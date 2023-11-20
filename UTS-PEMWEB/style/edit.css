@@ -1,0 +1,67 @@
+/* edit.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #2c3e50; /* Change to a more neutral color */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+form {
+    width: 300px;
+    background-color: #e67e22; /* Adjust to a warmer color */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #2c3e50; /* Darken text color for better contrast */
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px; /* Increase margin for better spacing */
+    color: #fff; /* Set text color to white for better visibility */
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #95a5a6; /* Adjust to a softer color */
+    border-radius: 4px;
+}
+
+button {
+    background-color: #3498db; /* Adjust to a complementary color */
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9; /* Darken the hover color */
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    margin-top: 10px;
+    transition: color 0.3s ease; /* Add a transition effect for color changes */
+}
+
+a:hover {
+    color: #3498db; /* Change color on hover */
+}

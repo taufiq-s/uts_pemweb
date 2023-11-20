@@ -1,0 +1,19 @@
+UTS
+
+1. Apa yang dimaksud dengan framework pada pengembangan aplikasi? 
+(jelaskan dengan bahasa yang mudah dimengerti, bukan secara 
+harfiah/istilah)
+
+jawaban :
+
+1.  framework adalah alat bantu yang membantu membuat proses pengembangan aplikasi menjadi lebih efisien, mirip dengan cara resep membantu Anda membuat kue tanpa harus memikirkan setiap langkah dari awal.
+
+2.  a. sebutkan tema proyek yang sedang digarap!
+        tema yang didapatkan adalah laboraturium
+    b. sebutkan anggota dari proyek yang sedang digarap, berikut dengan jobdesk dari masing-masing anggota!
+        -Ryu Senna Fadhlika Al Aziz(Coder)
+        -Taufiq Sirajuddin (desain database)
+        -Tryo Wahyu Ramadhani (buat laporan)
+    c. Jelaskan permasalahan yang didapat setelah hasil wawancara dengan client, beserta hipotesa solusi yang kalian usung!
+        ploting penjadwalan yang ada pada tempat client itu masih manual dan proses pembuatannya memakan lebih banyak waktu
+        solusi yang kami usulkan adalah untuk membuat sebuah sistem ploting penjadwalan otomatis

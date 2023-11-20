@@ -1,0 +1,67 @@
+/* create.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #2c3e50; /* Change to a more neutral color */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    color: #3498db; /* Change link color to a more noticeable color */
+    margin-bottom: 20px;
+    transition: color 0.3s ease; /* Add transition effect for color changes */
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #2980b9; /* Darken link color on hover */
+}
+
+form {
+    background-color: #e67e22; /* Adjust to a warmer color */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the form content */
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50; /* Darken text color for better contrast */
+    margin-bottom: 20px;
+}
+
+input {
+    margin-bottom: 15px;
+    padding: 12px; /* Increase padding for better input appearance */
+    border: 1px solid #3498db; /* Adjust to a complementary color */
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 12px; /* Increase padding for better button appearance */
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #2980b9; /* Darken the hover color */
+}
+
+/* Style for file input */
+input[type="file"] {
+    margin-bottom: 20px;
+}
+

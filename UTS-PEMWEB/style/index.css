@@ -1,0 +1,68 @@
+/* style.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #3498db; /* Ganti dengan warna yang lebih menarik */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+form {
+    width: 300px;
+    background-color: #e74c3c; /* Sesuaikan dengan warna yang serasi */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #fff; /* Atur warna teks menjadi putih untuk kontras yang lebih baik */
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px; /* Sedikit tambahkan margin untuk jarak yang lebih baik */
+    color: #ffffff;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #3498db; /* Sesuaikan dengan warna latar belakang body */
+    border-radius: 4px;
+    transition: border-color 0.3s ease; /* Tambahkan efek transisi untuk perubahan warna border */
+}
+
+input[type="submit"] {
+    background-color: #2c3e50; /* Sesuaikan dengan warna yang lebih gelap */
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Tambahkan efek transisi untuk perubahan warna latar belakang */
+}
+
+input[type="submit"]:hover {
+    background-color: #1c2833; /* Perdalam warna hover */
+}
+
+.password-container {
+    position: relative;
+    display: inline-block;
+}
+
+#toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #fff; /* Atur warna menjadi putih untuk keterlihatan yang lebih baik */
+}
